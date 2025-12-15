@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
+import logo from "../assets/logo.png";
+import chestExample from "../assets/chest-example.png";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#080808] via-[#101A2C] to-[#0F2238] text-white flex flex-col items-center justify-center relative overflow-hidden px-6">
       {/* --- Improved X-Ray Decorative BG --- */}
       <img
-        src="/src/assets/chest-example.png"
+        src={chestExample}
         alt="X-ray"
         className="
           absolute
@@ -25,7 +27,7 @@ export default function Home() {
       <div className="flex flex-col items-center z-10 mt-[-40px]">
         {/* Logo Placeholder */}
         <img
-          src="/src/assets/logo.png"
+          src={logo}
           alt="PneumoSight Logo"
           className="w-[300px] h-[200px] object-contain drop-shadow-xl mb-4"
         />
