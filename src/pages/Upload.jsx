@@ -119,7 +119,7 @@ export default function Upload() {
           }
         `}
       >
-        {loading ? "Analyzing..." : "Diagnose X-ray"}
+        {loading ? "Analyzing..." : "Diagnose X-Ray"}
       </button>
     </div>
   );

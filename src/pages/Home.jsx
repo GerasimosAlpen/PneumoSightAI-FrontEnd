@@ -47,13 +47,6 @@ export default function Home() {
           >
             Upload Chest X-Ray & Diagnose
           </Link>
-
-          <Link
-            to="/results"
-            className="px-8 py-3 rounded-xl border border-gray-400 text-gray-200 hover:bg-gray-800 transition-all"
-          >
-            View Your Previous Results
-          </Link>
         </div>
       </div>
     </div>
