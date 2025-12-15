@@ -32,10 +32,13 @@ export default function Upload() {
     formData.append("file", selectedImage);
 
     try {
-      const response = await fetch("http://localhost:5000/predict", {
-        method: "POST",
-        body: formData,
-      });
+      const response = await fetch(
+        "https://pneumosightai-backend-production.up.railway.app/predict",
+        {
+          method: "POST",
+          body: formData,
+        }
+      );
 
       const data = await response.json();
 
